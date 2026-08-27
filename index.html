@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Training Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav">
+            <a class="logo" href="#">DevOps<span>Lab</span></a>
+            <nav>
+                <a href="#about">Про проєкт</a>
+                <a href="#roadmap">Roadmap</a>
+                <a href="#status">Статус</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <div>
+                    <p class="eyebrow">PRACTICAL DEVOPS TRAINING</p>
+                    <h1>Мій перший<br><span>DevOps-проєкт</span></h1>
+                    <p class="hero-text">
+                        Простий сайт, який ми будемо поступово перетворювати
+                        на повноцінний DevOps-проєкт.
+                    </p>
+                    <div class="buttons">
+                        <a class="button primary" href="#roadmap">Дивитися roadmap</a>
+                        <a class="button secondary" href="#about">Про проєкт</a>
+                    </div>
+                </div>
+
+                <div class="terminal">
+                    <div class="terminal-top">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <pre><code>$ git status
+On branch main
+
+Your project is ready.
+
+$ echo "Hello, DevOps!"
+Hello, DevOps!</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <p class="eyebrow">ABOUT</p>
+                <h2>Навіщо існує цей сайт?</h2>
+                <p class="section-text">
+                    Цей застосунок — наш навчальний об'єкт. Сам сайт навмисно
+                    простий, а основна увага буде на Git, Linux, Docker, CI/CD
+                    та інших етапах DevOps roadmap.
+                </p>
+
+                <div class="cards">
+                    <article class="card">
+                        <div class="icon">01</div>
+                        <h3>Практика</h3>
+                        <p>Кожна нова технологія буде застосована до цього проєкту.</p>
+                    </article>
+                    <article class="card">
+                        <div class="icon">02</div>
+                        <h3>Поступовість</h3>
+                        <p>Починаємо з простого й ускладнюємо інфраструктуру крок за кроком.</p>
+                    </article>
+                    <article class="card">
+                        <div class="icon">03</div>
+                        <h3>Реальний підхід</h3>
+                        <p>Вчимося вирішувати задачі так, як це робить Junior DevOps.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="roadmap" class="section roadmap-section">
+            <div class="container">
+                <p class="eyebrow">ROADMAP</p>
+                <h2>Наш шлях</h2>
+
+                <div class="roadmap">
+                    <div class="roadmap-item active">
+                        <span class="number">01</span>
+                        <div>
+                            <h3>Git</h3>
+                            <p>Репозиторій, commits, branches, tags та робота з remote.</p>
+                        </div>
+                        <span class="badge">Зараз</span>
+                    </div>
+
+                    <div class="roadmap-item">
+                        <span class="number">02</span>
+                        <div>
+                            <h3>Linux</h3>
+                            <p>Командний рядок, процеси, права, SSH, systemd та troubleshooting.</p>
+                        </div>
+                        <span class="badge muted">Далі</span>
+                    </div>
+
+                    <div class="roadmap-item">
+                        <span class="number">03</span>
+                        <div>
+                            <h3>Docker</h3>
+                            <p>Образи, Dockerfile, контейнери, мережі та Compose.</p>
+                        </div>
+                        <span class="badge muted">Далі</span>
+                    </div>
+
+                    <div class="roadmap-item">
+                        <span class="number">04</span>
+                        <div>
+                            <h3>CI/CD</h3>
+                            <p>Pipeline, stages, jobs, tests, build та deploy.</p>
+                        </div>
+                        <span class="badge muted">Далі</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="status" class="section status-section">
+            <div class="container status-box">
+                <div>
+                    <p class="eyebrow">PROJECT STATUS</p>
+                    <h2>Система працює ✅</h2>
+                    <p>Це статичний сайт. Наступний крок — взяти його під контроль Git.</p>
+                </div>
+                <div class="status-indicator">
+                    <span class="pulse"></span>
+                    ONLINE
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>DevOps Training Project · Built for learning</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
